@@ -1,0 +1,5 @@
+2026-08-24T12:09:55+00:00 INFO Payment gateway enabled: "WooPayments (Card)"
+2026-08-24T12:09:55+00:00 INFO Payment gateway enabled: "WooPayments (Cash App Afterpay)"
+2026-08-24T12:09:56+00:00 INFO Payment gateway enabled: "WooPayments (Klarna)"
+2026-08-24T12:09:57+00:00 INFO Payment gateway enabled: "WooPayments (Apple Pay)"
+2026-08-24T12:09:58+00:00 INFO Payment gateway enabled: "WooPayments (Google Pay)"

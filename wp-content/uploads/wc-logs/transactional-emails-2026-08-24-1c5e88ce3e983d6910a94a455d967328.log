@@ -1,0 +1,5 @@
+2026-08-24T12:09:55+00:00 WARNING Email "admin_payment_gateway_enabled" failed to send CONTEXT: {"email_type":"admin_payment_gateway_enabled","status":"failed","recipient":"admin","WC_Payment_Gateway_WCPay":null}
+2026-08-24T12:09:56+00:00 WARNING Email "admin_payment_gateway_enabled" failed to send CONTEXT: {"email_type":"admin_payment_gateway_enabled","status":"failed","recipient":"admin","WC_Payment_Gateway_WCPay":null}
+2026-08-24T12:09:57+00:00 WARNING Email "admin_payment_gateway_enabled" failed to send CONTEXT: {"email_type":"admin_payment_gateway_enabled","status":"failed","recipient":"admin","WC_Payment_Gateway_WCPay":null}
+2026-08-24T12:09:58+00:00 WARNING Email "admin_payment_gateway_enabled" failed to send CONTEXT: {"email_type":"admin_payment_gateway_enabled","status":"failed","recipient":"admin","WC_Payment_Gateway_WCPay":null}
+2026-08-24T12:09:58+00:00 WARNING Email "admin_payment_gateway_enabled" failed to send CONTEXT: {"email_type":"admin_payment_gateway_enabled","status":"failed","recipient":"admin","WC_Payment_Gateway_WCPay":null}
