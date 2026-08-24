@@ -24,12 +24,7 @@ $products = function_exists( 'wc_get_products' ) ? wc_get_products( array(
 ) ) : array();
 if ( empty( $products ) && function_exists( 'wc_get_products' ) ) {
     $products = wc_get_products( array( 'status' => 'publish', 'limit' => 4, 'return' => 'objects' ) );
-}
-$logo = get_custom_logo();
-if ( ! $logo ) {
-    $logo = '<img class="sage-linen-logo" src="' . esc_url( get_template_directory_uri() . '/assets/img/logo.png' ) . '" alt="' . esc_attr( get_bloginfo( 'name' ) ) . '">';
-}
-?>
+}?>
 <div class="sage-linen-home">
     <section class="sl-hero">
         <div class="sl-hero__content">
