@@ -52,7 +52,8 @@ if ( empty( $products ) && function_exists( 'wc_get_products' ) ) {
         <div class="sl-section__intro"><p class="sl-eyebrow"><?php esc_html_e( 'The collection', 'sage-linen' ); ?></p><h2><?php esc_html_e( 'Explore our collections', 'sage-linen' ); ?></h2></div>
         <div class="sl-category-grid">
             <?php foreach ( $categories as $category ) : ?>
-                <a class="sl-category-card" href="<?php echo esc_url( get_term_link( $category ) ); ?>">
+                <?php $category_image = wp_get_attachment_image_url( get_term_meta( $category->term_id, 'thumbnail_id', true ), 'large' ); ?>
+                <a class="sl-category-card" style="<?php echo $category_image ? 'background-image:linear-gradient(180deg,rgba(32,32,29,.02),rgba(32,32,29,.72)),url(' . esc_url( $category_image ) . ');' : ''; ?>" href="<?php echo esc_url( get_term_link( $category ) ); ?>">
                     <span><?php echo esc_html( $category->name ); ?></span><small><?php esc_html_e( 'Discover collection', 'sage-linen' ); ?></small>
                 </a>
             <?php endforeach; ?>
