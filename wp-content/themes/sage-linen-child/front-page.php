@@ -16,6 +16,9 @@ $categories = function_exists( 'get_terms' ) ? get_terms( array(
     'number'     => 4,
     'parent'     => 0,
 ) ) : array();
+if ( is_wp_error( $categories ) ) {
+    $categories = array();
+}
 $products = function_exists( 'wc_get_products' ) ? wc_get_products( array(
     'status'  => 'publish',
     'limit'   => 4,
