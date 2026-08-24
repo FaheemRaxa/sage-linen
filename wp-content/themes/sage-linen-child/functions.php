@@ -9,7 +9,7 @@ add_action( 'wp_enqueue_scripts', function () {
     wp_enqueue_style(
         'sage-linen-homepage',
         get_stylesheet_directory_uri() . '/assets/css/homepage.css',
-        array( 'flatsome-main' ),
+        array(),
         '1.0.0'
     );
 }, 20 );
